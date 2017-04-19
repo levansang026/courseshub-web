@@ -116,9 +116,6 @@
 								</ul>
 							</li>
 							<li><a href="contact.html">Liên hệ</a></li>
-							<li class="btn-cta"><a href="login.html"><span>Đăng nhập</span></a></li>
-							<li class="btn-cta"><a href="login.html"><span>Đăng ký</span></a></li>
-							<li class="btn-cta"><a href="#"><span>Tạo khoá học</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -127,30 +124,59 @@
 		</div>
 	</nav>
 
-
-	<div id="fh5co-contact" style="padding-top:1em;">
+		<div id="fh5co-contact" style="padding-top:1em;">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 col-md-push-1 animate-box">
-					
-					<div class="fh5co-contact-info">
-						<h3>Văn phòng CoursesHub.com</h3>
-						<ul>
-							<li class="address">Số 9 Đường Nguyễn Thị Minh Khai, <br> Phường 4 Thành Phố Hồ Chí Minh HCMC 70000</li>
-							<li class="phone"><a href="tel://1234567920">+ 084 083 235 235 598</a></li>
-							<li class="email"><a href="mailto:info@yoursite.com">contact@courseshub.com</a></li>
-							<li class="url"><a href="http://freehtml5.co">courseshub.com</a></li>
-						</ul>
-					</div>
+				<div class="col-md-6 animate-box">
+					<h3>Đăng nhập</h3>
+					<form action="#">
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="fname">First Name</label> -->
+								<input type="text" id="fname" class="form-control" placeholder="Tên đăng nhập">
+							</div>
+						</div>
 
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="email">Email</label> -->
+								<input type="text" id="email" class="form-control" placeholder="Mật khẩu">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<input type="submit" value="Đăng nhập" class="btn btn-primary">
+							<input type="submit" value="Tôi không thể đăng nhập" class="btn btn-warning">
+						</div>
+
+					</form>		
+					
+					<hr style="border-top: 2px solid rgba(0, 0, 0, 0.1)"/>
+					
+					<h3>Đăng nhập qua mạng xã hội</h3>
+					<div class="row">
+						<div class="col-md-12">
+						<ul style="list-style-type: none;">
+							<li style="float: left;"><a style="padding-right: 10px;" href="#"><i class="icon-facebook2" style="font-size:3em;"></i></a></li>
+							<li style="float: left;"><a style="padding-right: 10px;" href="#"><i class="icon-twitter2" style="font-size:3em;color:aqua;"></i></a></li>
+							<li style="float: left;"><a style="padding-right: 10px;" href="#"><i class="icon-dribbble2" style="font-size:3em;color:orange;"></i></a></li>
+							<li style="float: left;"><a style="padding-right: 10px;" href="#"><i class="icon-github" style="font-size:3em;color:purple;"></i></a></li>
+						</ul>
+						</div>
+					</div>
+					
 				</div>
 				<div class="col-md-6 animate-box">
-					<h3>Liên lạc với chúng tôi</h3>
+					<h3>Đăng ký miễn phí</h3>
 					<form action="#">
 						<div class="row form-group">
 							<div class="col-md-6">
 								<!-- <label for="fname">First Name</label> -->
-								<input type="text" id="fname" class="form-control" placeholder="Họ tên">
+								<input type="text" id="fname" class="form-control" placeholder="Tên">
+							</div>
+							<div class="col-md-6">
+								<!-- <label for="lname">Last Name</label> -->
+								<input type="text" id="lname" class="form-control" placeholder="Họ">
 							</div>
 						</div>
 
@@ -164,18 +190,26 @@
 						<div class="row form-group">
 							<div class="col-md-12">
 								<!-- <label for="subject">Subject</label> -->
-								<input type="text" id="subject" class="form-control" placeholder="Tiêu đề">
+								<input type="text" id="subject" class="form-control" placeholder="Tên đăng nhập">
+							</div>
+						</div>
+						
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="subject">Subject</label> -->
+								<input type="text" id="subject" class="form-control" placeholder="Mật khẩu">
+							</div>
+						</div>
+						
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="subject">Subject</label> -->
+								<input type="text" id="subject" class="form-control" placeholder="Nhập lại mật khẩu">
 							</div>
 						</div>
 
-						<div class="row form-group">
-							<div class="col-md-12">
-								<!-- <label for="message">Message</label> -->
-								<textarea name="message" id="message" cols="30" rows="5" class="form-control" placeholder="Nôi dung thông điệp"></textarea>
-							</div>
-						</div>
 						<div class="form-group">
-							<input type="submit" value="Gửi thông điệp" class="btn btn-primary">
+							<input type="submit" value="Đăng ký ngay" class="btn btn-success">
 						</div>
 
 					</form>		
@@ -184,8 +218,7 @@
 			
 		</div>
 	</div>
-	<div id="map" class="fh5co-map"></div>
-
+	
 	<footer id="fh5co-footer" role="contentinfo" style="background-image: url(images/img_bg_4.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
@@ -274,9 +307,6 @@
 	<!-- Magnific Popup -->
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/magnific-popup-options.js"></script>
-	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-	<script src="js/google_map.js"></script>
 	<!-- Count Down -->
 	<script src="js/simplyCountdown.js"></script>
 	<!-- Main -->
